@@ -1,0 +1,25 @@
+{
+  "name": "eslint-config-pdw",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pimdewit/eslint-config-pdw.git"
+  },
+  "keywords": [
+    "pdw.io"
+  ],
+  "author": "Pim de Wit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pimdewit/eslint-config-pdw/issues"
+  },
+  "homepage": "https://github.com/pimdewit/eslint-config-pdw",
+  "peerDependencies": {
+    "eslint": ">=4.19.1",
+    "eslint-config-airbnb-base": ">=12.1.0",
+    "eslint-plugin-html": ">=4.0.2",
+    "eslint-plugin-import": ">=2.10.0",
+    "eslint-plugin-jsdoc": ">=3.5.0"
+  }
+}
