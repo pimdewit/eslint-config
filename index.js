@@ -1,6 +1,10 @@
 module.exports = {
-  "extends": "airbnb-base",
+  "extends": [
+    "plugin:react/recommended",
+    "google"
+  ],
   "plugins": [
+    "react",
     "jsdoc"
   ],
   "env": {
@@ -180,18 +184,19 @@ module.exports = {
       "error",
       "never"
     ],
-    "no-param-reassign": 1,
-    "jsdoc/check-param-names": 1,
-    "jsdoc/check-tag-names": 1,
+    "no-param-reassign": true,
+    "jsdoc/check-param-names": true,
+    "jsdoc/check-tag-names": true,
     "jsdoc/newline-after-description": [
       "warn",
       "never"
     ],
-    "jsdoc/require-description-complete-sentence": 1,
-    "jsdoc/require-param": 1,
-    "jsdoc/require-param-type": 1,
-    "jsdoc/require-returns-type": 1,
-    "no-underscore-dangle": 0,
+    "jsdoc/require-description-complete-sentence": true,
+    "jsdoc/require-hyphen-before-param-description": true,
+    "jsdoc/require-param": true,
+    "jsdoc/require-param-type": true,
+    "jsdoc/require-returns-type": true,
+    "no-underscore-dangle": false,
     "comma-dangle": [
       "error",
       {
@@ -202,7 +207,7 @@ module.exports = {
         "functions": "never"
       }
     ],
-    "arrow-body-style": 0,
+    "arrow-body-style": false,
     "prefer-promise-reject-errors": [
       "off"
     ]
