@@ -184,19 +184,19 @@ module.exports = {
       "error",
       "never"
     ],
-    "no-param-reassign": true,
-    "jsdoc/check-param-names": true,
-    "jsdoc/check-tag-names": true,
+    "no-param-reassign": 1,
+    "jsdoc/check-param-names": 1,
+    "jsdoc/check-tag-names": 1,
     "jsdoc/newline-after-description": [
       "warn",
       "never"
     ],
-    "jsdoc/require-description-complete-sentence": true,
-    "jsdoc/require-hyphen-before-param-description": true,
-    "jsdoc/require-param": true,
-    "jsdoc/require-param-type": true,
-    "jsdoc/require-returns-type": true,
-    "no-underscore-dangle": false,
+    "jsdoc/require-description-complete-sentence": 1,
+    "jsdoc/require-hyphen-before-param-description": 1,
+    "jsdoc/require-param": 1,
+    "jsdoc/require-param-type": 1,
+    "jsdoc/require-returns-type": 1,
+    "no-underscore-dangle": 0,
     "comma-dangle": [
       "error",
       {
@@ -207,7 +207,7 @@ module.exports = {
         "functions": "never"
       }
     ],
-    "arrow-body-style": false,
+    "arrow-body-style": 0,
     "prefer-promise-reject-errors": [
       "off"
     ]
