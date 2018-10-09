@@ -3,6 +3,7 @@ module.exports = {
     "plugin:react/recommended",
     "google"
   ],
+  "parser": "babel-eslint",
   "plugins": [
     "react",
     "jsdoc"
@@ -12,12 +13,6 @@ module.exports = {
     "node": true
   },
   "rules": {
-    "import/no-extraneous-dependencies": [
-      "warn",
-      {
-        "devDependencies": true
-      }
-    ],
     "no-new": [
       "off"
     ],
