@@ -6,7 +6,7 @@ module.exports = {
   "parser": "babel-eslint",
   "plugins": [
     "react",
-    "jsdoc"
+    "require-jsdoc-except"
   ],
   "env": {
     "browser": true,
@@ -130,16 +130,23 @@ module.exports = {
         "multiline": true
       }
     ],
-    "require-jsdoc": [
-      "error",
-      {
-        "require": {
-          "FunctionDeclaration": true,
-          "MethodDefinition": true,
-          "ClassDeclaration": true
-        }
-      }
-    ],
+    'require-jsdoc' : ['off'],
+    "require-jsdoc-except/require-jsdoc": ["error", {
+      "require": {
+        "FunctionDeclaration": true,
+        "MethodDefinition": true,
+        "ClassDeclaration": true,
+        "ArrowFunctionExpression": true,
+        "FunctionExpression": true
+      },
+      "ignore": [
+        "constructor",
+        "render",
+        "componentDidMount",
+        "componentWillUnmount",
+        "componentDidCatch",
+      ]
+    }],
     "spaced-comment": [
       "error",
       "always",
@@ -214,4 +221,4 @@ module.exports = {
       }
     }
   }
-}
+};
