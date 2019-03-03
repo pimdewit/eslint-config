@@ -13,6 +13,7 @@ module.exports = {
     "node": true
   },
   "rules": {
+    "arrow-parens": "as-needed",
     "no-new": [
       "off"
     ],
@@ -121,7 +122,7 @@ module.exports = {
     "no-whitespace-before-property": "error",
     "object-curly-spacing": [
       "warn",
-      "never"
+      "always"
     ],
     "object-curly-newline": [
       "warn",
