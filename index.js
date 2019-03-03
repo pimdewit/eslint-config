@@ -139,6 +139,17 @@ module.exports = {
         "ArrowFunctionExpression": true,
         "FunctionExpression": true
       },
+      "check-param-names": 1,
+      "check-tag-names": 1,
+      "newline-after-description": [
+        "warn",
+        "never"
+      ],
+      "require-description-complete-sentence": 1,
+      "require-hyphen-before-param-description": 1,
+      "require-param": 1,
+      "require-param-type": 1,
+      "require-returns-type": 1,
       "ignore": [
         "constructor",
         "render",
@@ -187,17 +198,6 @@ module.exports = {
       "never"
     ],
     "no-param-reassign": 1,
-    "jsdoc/check-param-names": 1,
-    "jsdoc/check-tag-names": 1,
-    "jsdoc/newline-after-description": [
-      "warn",
-      "never"
-    ],
-    "jsdoc/require-description-complete-sentence": 1,
-    "jsdoc/require-hyphen-before-param-description": 1,
-    "jsdoc/require-param": 1,
-    "jsdoc/require-param-type": 1,
-    "jsdoc/require-returns-type": 1,
     "no-underscore-dangle": 0,
     "comma-dangle": [
       "error",
