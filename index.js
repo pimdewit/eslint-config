@@ -13,7 +13,10 @@ module.exports = {
     "node": true
   },
   "rules": {
-    "arrow-parens": "as-needed",
+    "arrow-parens": [
+      "warn",
+      "as-needed"
+    ],
     "no-new": [
       "off"
     ],
