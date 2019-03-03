@@ -4,14 +4,14 @@ This ESLint config aims to aid you with writing compact, standalone methods whil
 
 ## Installation
 
-NPM: `npm install --save-dev eslint-plugin-import eslint-plugin-react eslint-plugin-jsdoc eslint-plugin-html eslint-config-google eslint-config-pdw`
+npm: `npm install --save-dev @pdw.io/eslint-config`
 
-Yarn: `yarn add --dev eslint-plugin-import eslint-plugin-react eslint-plugin-jsdoc eslint-plugin-html eslint-config-google eslint-config-pdw`
+yarn: `yarn add --dev @pdw.io/eslint-config`
 
 In package.json add the following object top-level:
 
 ```
 "eslintConfig": {
-  "extends": "pdw"
+  "extends": "@pdw.io/eslint-config"
 }
 ```
