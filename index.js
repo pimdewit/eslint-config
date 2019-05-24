@@ -1,18 +1,27 @@
 module.exports = {
   "extends": [
     "plugin:react/recommended",
-    "google"
+    "google",
+    "babel"
   ],
-  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2018
+  },
   "plugins": [
     "react",
     "require-jsdoc-except"
   ],
   "env": {
     "browser": true,
+    "commonjs": true,
+    "es6": true,
     "node": true
   },
   "rules": {
+    "react/react-in-jsx-scope": 0,
+    "no-invalid-this": 0,
+    "babel/no-invalid-this": 1,
     "arrow-parens": [
       "warn",
       "as-needed"
