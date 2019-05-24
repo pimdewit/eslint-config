@@ -1,8 +1,7 @@
 module.exports = {
   "extends": [
     "plugin:react/recommended",
-    "google",
-    "babel"
+    "google"
   ],
   "parserOptions": {
     "sourceType": "module",
@@ -10,6 +9,7 @@ module.exports = {
   },
   "plugins": [
     "react",
+    "babel",
     "require-jsdoc-except"
   ],
   "env": {
